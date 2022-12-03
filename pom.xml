@@ -13,7 +13,7 @@
     <artifactId>congestion-tax-calculator</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>congestion-tax-calculator</name>
-    <description>Volvo Cars congestion-tax-calculator Test</description>
+    <description>Volvo Cars congestion-tax-calculator</description>
     <properties>
         <java.version>11</java.version>
     </properties>

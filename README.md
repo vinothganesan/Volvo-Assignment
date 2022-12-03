@@ -1,12 +1,12 @@
 # congestion-tax-calculator
 
-congestion-tax-calculator is a Springboot REST Api service to calculate the congestion  tax calculator in a City.
+volvo-assignment is a Springboot REST Api service to calculate the congestion  tax calculator in a City.
 
 As part of calculation, this applications implemented some of exemption on Holidays, weekends and some of vehicle.
 
 REST Endpoint:
 
-**API URL:** http://localhost:8080/tax/calculator
+**API URL:** http://localhost:8080/api/tax/calculator
 
 **API method:** POST
 
@@ -122,7 +122,7 @@ REST Endpoint:
 
 ### Prerequsit
 
-Java 8 +
+Java 8+
 
 Maven
 
@@ -131,7 +131,7 @@ git clone https://github.com/vinothganesan/Volvo-Assignment
 
 ### Build application 
 
-Run the below maven command on the congestion-tax-calculator
+Run the below maven command on the volvo-assignment
 
 **mvn clean install**
 
