@@ -29,12 +29,93 @@ REST Endpoint:
     }
    Output: 
 
-       {
-    		"error": null,
-    		"tax": 58,
-    		"message": "Tax calculated successfully, Vehicle :Car Amount : 58",
-    		"timestamp": 1637177384362
-       }
+       [
+		    {
+		        "totalPrice": 21,
+		        "perdayPrice": 60,
+		        "pricetoPay": 21,
+		        "details": [
+		            {
+		                "price": 8,
+		                "to": "07-02-2013 06:23:27",
+		                "from": "07-02-2013 06:23:27"
+		            },
+		            {
+		                "price": 13,
+		                "to": "07-02-2013 15:27:00",
+		                "from": "07-02-2013 15:27:00"
+		            }
+		        ]
+		    },
+		    {
+		        "totalPrice": 70,
+		        "perdayPrice": 60,
+		        "pricetoPay": 60,
+		        "details": [
+		            {
+		                "price": 8,
+		                "to": "08-02-2013 06:27:00",
+		                "from": "08-02-2013 06:20:27"
+		            },
+		            {
+		                "price": 13,
+		                "to": "08-02-2013 15:29:00",
+		                "from": "08-02-2013 14:35:00"
+		            },
+		            {
+		                "price": 18,
+		                "to": "08-02-2013 16:01:00",
+		                "from": "08-02-2013 15:47:00"
+		            },
+		            {
+		                "price": 18,
+		                "to": "08-02-2013 16:48:00",
+		                "from": "08-02-2013 16:48:00"
+		            },
+		            {
+		                "price": 13,
+		                "to": "08-02-2013 17:49:00",
+		                "from": "08-02-2013 17:49:00"
+		            }
+		        ]
+		    },
+		    {
+		        "totalPrice": 8,
+		        "perdayPrice": 60,
+		        "pricetoPay": 8,
+		        "details": [
+		            {
+		                "price": 8,
+		                "to": "26-03-2013 14:25:00",
+		                "from": "26-03-2013 14:25:00"
+		            }
+		        ]
+		    },
+		    {
+		        "totalPrice": 0,
+		        "perdayPrice": 60,
+		        "pricetoPay": 0,
+		        "details": [
+		            {
+		                "price": 0,
+		                "to": "14-01-2013 21:00:00",
+		                "from": "14-01-2013 21:00:00"
+		            }
+		        ]
+		    },
+		    {
+		        "totalPrice": 0,
+		        "perdayPrice": 60,
+		        "pricetoPay": 0,
+		        "details": [
+		            {
+		                "price": 0,
+		                "to": "15-01-2013 21:00:00",
+		                "from": "15-01-2013 21:00:00"
+		            }
+		        ]
+		    }
+		]
 
 # Build and Run
 
